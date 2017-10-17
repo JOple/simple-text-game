@@ -7,7 +7,7 @@ import com.droom.world.WorldScene;
 public class SceneQ2N extends WorldScene {
 
 	private int cycle = 0;
-	private String[] inspectReplies = new String[] {"The Clock has a time of 2:40", "The hour hand points at 2", "The minute hand points at 4", "Remember 2 and 4"};
+	private String[] inspectReplies = new String[] {"The Clock has a time of 2:20", "The hour hand points at 2", "The minute hand points at 4", "Remember 2 and 4"};
 	
 	public SceneQ2N() {
 		super(R.Img.QUADRANT_2_NORTH);
