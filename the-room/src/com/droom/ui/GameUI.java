@@ -20,7 +20,6 @@ import javax.swing.JScrollPane;
 import javax.swing.JSplitPane;
 import javax.swing.JTextArea;
 import javax.swing.JTextField;
-import javax.swing.SwingConstants;
 
 import com.droom.world.World;
 
@@ -28,7 +27,6 @@ public class GameUI implements World.CommandActuator {
 
 	private JFrame frame;
 	private JLabel image;
-	//	private JPanel logs;
 	private JTextArea area;
 	private JTextField input;
 
@@ -38,13 +36,11 @@ public class GameUI implements World.CommandActuator {
 		image = new JLabel();
 		image.setBackground(Color.BLACK);
 
-		//		logs = new JPanel(new GridLayout(0, 1));
 		area = new JTextArea();
 		area.setEditable(false);
 		area.setFont(new Font("Consolas", Font.PLAIN, 14));
 
 		JScrollPane scrollLog = new JScrollPane(area);
-		//		JScrollPane scrollLog = new JScrollPane(logs);
 		scrollLog.setHorizontalScrollBarPolicy(JScrollPane.HORIZONTAL_SCROLLBAR_AS_NEEDED);
 		scrollLog.setVerticalScrollBarPolicy(JScrollPane.VERTICAL_SCROLLBAR_AS_NEEDED);
 
@@ -99,25 +95,10 @@ public class GameUI implements World.CommandActuator {
 	}
 
 	private void logLeft(String msg) {
-		//		JLabel box = new JLabel("> " + msg);
-		//		box.setMinimumSize(new Dimension(100, 40));
-		//		box.setMaximumSize(new Dimension(100, 40));
-		//
-		//		logs.add(box);
-		//		logs.repaint();
-		//		logs.revalidate();
 		area.setText(area.getText() + "\n>>> " + msg);
 	}
 
 	private void logRight(String msg) {
-		//		JLabel box = new JLabel(msg + " <");
-		//		box.setHorizontalAlignment(SwingConstants.RIGHT);
-		//		box.setMinimumSize(new Dimension(100, 40));
-		//		box.setMaximumSize(new Dimension(100, 40));
-		//
-		//		logs.add(box);
-		//		logs.repaint();
-		//		logs.revalidate();
 		area.setText(area.getText() + "\nMe > " + msg);
 	}
 
