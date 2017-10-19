@@ -22,13 +22,16 @@ public class SceneStart extends WorldScene {
 		cycle++;
 		switch (cycle) {
 		case 1:
-			say("You opened you eyes in a unknown room");
+			say("You opened your eyes in an unknown room");
 			break;
 		case 2:
 			say("You need to get out");
 			break;
-		default:
+		case 3:
 			say("You get off the bed");
+			break;
+		default:
+			say("What will I do");
 			goTo(SceneQ1S.class);
 		}
 	}
