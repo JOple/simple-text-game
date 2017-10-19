@@ -6,4 +6,6 @@ public class WorldState {
 	public static boolean hasSawHandle;
 	public static boolean hasSawBlade;
 	public static boolean hasSaw;
+
+	public static int idle;
 }
