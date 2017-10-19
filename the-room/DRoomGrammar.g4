@@ -60,6 +60,7 @@ CONJUNCTION
 PREPOSITION
 	: 'on'
 	| 'at'
+	| 'to'
 	;
 	
 ARTICLE
