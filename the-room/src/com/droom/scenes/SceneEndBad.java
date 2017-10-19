@@ -20,13 +20,13 @@ public class SceneEndBad extends WorldScene {
 
 	private void next() {
 		cycle++;
-		switch(cycle) {
+		switch (cycle) {
 		case 1:
 			show(R.Img.END_BAD_2);
 			say("And there was light");
 			break;
 		case 2:
-			show(R.Img.END_BAD_2);
+			show(R.Img.END_BAD_3);
 			say("And destruction and you DIED");
 			break;
 		default:
