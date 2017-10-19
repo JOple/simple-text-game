@@ -115,7 +115,7 @@ INPUT
 COMBINE
 	: 'combine'
 	| 'mix'
-	| 'glue t,ogether'
+	| 'glue together'
 	| 'put together'
 	| 'make'
 	;

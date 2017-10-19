@@ -43,7 +43,7 @@ public class SceneQ4S extends WorldScene {
 
 	@Override
 	public void onCmdInspect(SceneCommand cmd) {
-		say("There are Paintings");
+		say("There is a bookshelf");
 	}
 	@Override
 	public void onCmdInspectShelf(SceneCommand cmd) {
