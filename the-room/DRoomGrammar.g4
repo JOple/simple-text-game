@@ -203,6 +203,8 @@ CHEST
 SHELF
 	: 'shelf'
 	| 'shelves'
+	| 'bookshelf'
+	| 'bookshelves'
 	| 'cabinet'
 	;
 
